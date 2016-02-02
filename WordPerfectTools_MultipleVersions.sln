@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WP_GUI", "WP_GUI\WP_GUI.csproj", "{4F2BBC6C-480A-4310-955A-BC2DD421B2FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WP_PS_Tools", "WP_PS_Tools\WP_PS_Tools.csproj", "{32DB01DF-B419-4FA5-8F73-89C19DDDDF1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FakeCompany", "FakeComapny\FakeCompany.csproj", "{6B0868CC-4528-43B7-B6AB-610F66A6DDFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerfectScriptFactory", "..\WordPerfectTools\PerfectScriptFactory\PerfectScriptFactory.csproj", "{9ED3B6C6-0885-4915-9C40-6F299F3362D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F2BBC6C-480A-4310-955A-BC2DD421B2FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F2BBC6C-480A-4310-955A-BC2DD421B2FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F2BBC6C-480A-4310-955A-BC2DD421B2FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F2BBC6C-480A-4310-955A-BC2DD421B2FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32DB01DF-B419-4FA5-8F73-89C19DDDDF1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32DB01DF-B419-4FA5-8F73-89C19DDDDF1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32DB01DF-B419-4FA5-8F73-89C19DDDDF1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32DB01DF-B419-4FA5-8F73-89C19DDDDF1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B0868CC-4528-43B7-B6AB-610F66A6DDFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B0868CC-4528-43B7-B6AB-610F66A6DDFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B0868CC-4528-43B7-B6AB-610F66A6DDFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B0868CC-4528-43B7-B6AB-610F66A6DDFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9ED3B6C6-0885-4915-9C40-6F299F3362D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ED3B6C6-0885-4915-9C40-6F299F3362D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ED3B6C6-0885-4915-9C40-6F299F3362D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ED3B6C6-0885-4915-9C40-6F299F3362D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
