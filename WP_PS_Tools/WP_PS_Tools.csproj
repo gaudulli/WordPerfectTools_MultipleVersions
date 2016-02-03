@@ -47,9 +47,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="GenericPS">
-      <HintPath>..\..\GenericPS\GenericPS\bin\Release\GenericPS.dll</HintPath>
-    </Reference>
     <Reference Include="NumbersToText">
       <HintPath>..\..\NumbersToText\NumbersToText\bin\Release\NumbersToText.dll</HintPath>
     </Reference>
@@ -98,6 +95,10 @@
     <ProjectReference Include="..\FakeComapny\FakeCompany.csproj">
       <Project>{6b0868cc-4528-43b7-b6ab-610f66a6ddfc}</Project>
       <Name>FakeCompany</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GenericPS\GenericPS\GenericPS.csproj">
+      <Project>{f041479f-13c3-4d20-ba70-5559406f7756}</Project>
+      <Name>GenericPS</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
