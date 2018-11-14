@@ -85,10 +85,6 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\WordPerfectTools\PerfectScriptFactory\PerfectScriptFactory.csproj">
-      <Project>{9ed3b6c6-0885-4915-9c40-6f299f3362d8}</Project>
-      <Name>PerfectScriptFactory</Name>
-    </ProjectReference>
     <ProjectReference Include="..\FakeComapny\FakeCompany.csproj">
       <Project>{6b0868cc-4528-43b7-b6ab-610f66a6ddfc}</Project>
       <Name>FakeCompany</Name>
