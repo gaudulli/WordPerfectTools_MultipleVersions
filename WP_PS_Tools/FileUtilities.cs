@@ -28,7 +28,7 @@ namespace WP_PS_Tools
             foreach (string program in installedPrograms)
             {
                 if (program.Contains("WordPerfect Office X")
-                    && !program.Contains("SDK"))
+                    && !program.Contains("SDK"))    // the X7 SDK needs to be ignored (it shares a common naming convention with WP)
                 {
                     WPPrograms.Add(program);
                 }
@@ -98,6 +98,8 @@ namespace WP_PS_Tools
                     && (systemComponent == null);
             }
         }
+
+
 
         public static int getNumWPInstances(int WPversion)
         {

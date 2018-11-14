@@ -63,15 +63,12 @@ namespace WP_PS_Tools
             {
                 PSContainer = MakePerfectScriptObject.getPS(WPVersion);
                 PS = PSContainer.perfectScript;
-
             }
-
             initPerfectScript();
             wpHandle = getLatestWPInstance().MainWindowHandle;
             setParent();
             PS.WPActivate();
             PS.AppMaximize();
-
             if (!newProcess)
             {
                 releaseScript();

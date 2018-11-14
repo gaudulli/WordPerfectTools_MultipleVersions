@@ -47,9 +47,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="NumbersToText">
-      <HintPath>..\..\NumbersToText\NumbersToText\bin\Release\NumbersToText.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Windows.Forms" />
@@ -99,6 +96,10 @@
     <ProjectReference Include="..\GenericPS\GenericPS\GenericPS.csproj">
       <Project>{f041479f-13c3-4d20-ba70-5559406f7756}</Project>
       <Name>GenericPS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NumbersToText\NumbersToText.csproj">
+      <Project>{85b0ca05-4549-4de4-9d8e-bf2e5a83e598}</Project>
+      <Name>NumbersToText</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
