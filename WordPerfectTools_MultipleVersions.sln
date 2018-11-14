@@ -21,7 +21,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericPS", "GenericPS\Gene
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumbersToText", "NumbersToText\NumbersToText.csproj", "{85B0CA05-4549-4DE4-9D8E-BF2E5A83E598}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WP18", "WP18\WP18\WP18.csproj", "{99DBA68D-493E-4043-A030-197E28A97C89}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WP18", "..\WP18\WP18\WP18.csproj", "{99DBA68D-493E-4043-A030-197E28A97C89}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
