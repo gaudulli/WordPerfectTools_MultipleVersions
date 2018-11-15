@@ -54,6 +54,12 @@
     <Compile Include="MakePerfectScriptObject.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WP18\WP18\WP18.csproj">
+      <Project>{99dba68d-493e-4043-a030-197e28a97c89}</Project>
+      <Name>WP18</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

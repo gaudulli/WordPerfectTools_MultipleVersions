@@ -266,24 +266,27 @@ namespace WP_PS_Tools
         public static void InsertMergeLetters(WP_Window wp, List<Company> companyList, 
             List<Customer> customerList)
         {
+
+            string path = Environment.CurrentDirectory + @"\SampleMergeLetter.wpt";
+
             wp.initPerfectScript();
-            wp.PS.FileOpen("SampleMergeLetter.wpt");    //open the template letter (for pedagogical purposes; no need to open it twice in the real world);
+            wp.PS.FileOpen(path);    //open the template letter (for pedagogical purposes; no need to open it twice in the real world);
             wp.PS.PosDocTop();
-            wp.PS.KeyType("This is an example of how you can use bookmarks to create a \"Merge\" letter using modern .NET tools. ");
+            wp.PS.KeyType("This is an example of how you can use bookmarks to create a \"Merge\" letter using modern .NET tools.\n\n ");
 
             foreach (Customer customer in customerList) // main loop to create a letter for each customer
             {
                 // select company by examining customer product
                 Company company = companyList.FirstOrDefault(p => p.product == customer.product);
 
-                wp.PS.FileOpen("SampleMergeLetter.wpt");
+                wp.PS.FileOpen(path);
 
 
                 wp.PS.BookmarkBlock("CompanyMasthead"); // First, find the "CompanyMasthead" bookmark and then select it
                 wp.PS.KeyType("");  //not sure why this is needed in order to turn on an attribute
                 wp.PS.AttributeAppearanceOn(12);    // bold
                 //get the correct data from the current company object.  This has the effect of replacing the selected text.
-                wp.PS.KeyType(string.Format("{0} Corporation\n{1}", company.name, company.address.ToString()));                       
+                wp.PS.KeyType(string.Format("{0} Corporation\n{1}", company.name, company.address.ToString()));
                 wp.PS.AttributeAppearanceOff(12); // turn off bold
                 wp.PS.BookmarkDelete("CompanyMasthead");  // getting rid of extraneous codes--optional
 

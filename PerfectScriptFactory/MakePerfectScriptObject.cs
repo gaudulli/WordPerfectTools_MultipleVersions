@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using WP14;
 using WP16;
 using WP17;
+using WP18;
 using GenericPS;
 
 namespace PerfectScriptFactory
@@ -33,6 +34,10 @@ namespace PerfectScriptFactory
                 case 17:
                     {
                         return new WP17PS();
+                    }
+                case 18:
+                    {
+                        return new WP18PS();
                     }
                 default:
                     {
