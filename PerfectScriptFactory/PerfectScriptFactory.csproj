@@ -40,21 +40,24 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
-    <Reference Include="WP14">
-      <HintPath>..\..\WP14\WP14\bin\Release\WP14.dll</HintPath>
-    </Reference>
-    <Reference Include="WP16">
-      <HintPath>..\..\WP16\WP16\bin\Release\WP16.dll</HintPath>
-    </Reference>
-    <Reference Include="WP17">
-      <HintPath>..\..\WP17\WP17\bin\Release\WP17.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MakePerfectScriptObject.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\WP14\WP14\WP14.csproj">
+      <Project>{c9da9d8c-7a67-4557-8c21-18a9aa01646a}</Project>
+      <Name>WP14</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WP16\WP16\WP16.csproj">
+      <Project>{ef3a0e5c-ebe4-4f8f-b4ab-d7da337f0360}</Project>
+      <Name>WP16</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WP17\WP17\WP17.csproj">
+      <Project>{ab48a1a5-42dc-4c1d-8ae3-6c6fc0a08248}</Project>
+      <Name>WP17</Name>
+    </ProjectReference>
     <ProjectReference Include="..\WP18\WP18\WP18.csproj">
       <Project>{99dba68d-493e-4043-a030-197e28a97c89}</Project>
       <Name>WP18</Name>

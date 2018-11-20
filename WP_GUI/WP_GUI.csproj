@@ -35,10 +35,6 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="NumbersToText, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\NumbersToText\NumbersToText\bin\Release\NumbersToText.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -104,6 +100,10 @@
     <ProjectReference Include="..\FakeComapny\FakeCompany.csproj">
       <Project>{6b0868cc-4528-43b7-b6ab-610f66a6ddfc}</Project>
       <Name>FakeCompany</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NumbersToText\NumbersToText.csproj">
+      <Project>{85b0ca05-4549-4de4-9d8e-bf2e5a83e598}</Project>
+      <Name>NumbersToText</Name>
     </ProjectReference>
     <ProjectReference Include="..\WP_PS_Tools\WP_PS_Tools.csproj">
       <Project>{32db01df-b419-4fa5-8f73-89c19ddddf1d}</Project>
